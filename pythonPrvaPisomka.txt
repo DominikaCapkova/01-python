@@ -1,11 +1,3 @@
-Pri potulkách po Zemi si zaznamenávame GPS súradnice (zemepisnú šírku a dåžku v stupòoch ako dve reálne èísla). Pre vyhodnotenie našich potuliek by sme potrebovali:
-
-uklada si GPS súradnice bodov našej cesty (postupne, ako danými bodmi prechádzame)
-vypoèíta celkovú vzdialenos, ktorú sme prešli.
-Vytvorte aplikáciu, ktorá nám toto umožní. Nezabudnite ošetri môžné chyby, ktoré by mohli vzniknú poèas výpoètov.
-
-Na výpoèet vzdialenosti dvoch bodov z ich GPS súradníc možete použi funkciu:
-
 def vzdialenost(sirkaStart: float, dlzkaStart : float, sirkaCiel: float, dlzkaCiel : float) -> float:
     import math
     polomer = 6371000
